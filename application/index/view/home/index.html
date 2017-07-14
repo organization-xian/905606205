@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/dasky.min.css" />
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jmpress.min.js"></script>
+    <script type="text/javascript" src="/static/js/dasky.eval.js"></script>
+	<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function(){$('#dasky').Dasky()});
+    </script>
+
+    <style type="text/css">
+        html, body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #dasky
+        {
+            font-family: 'Droid Sans' , sans-serif;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index/home/index">首页</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/index/home/pic">大事件<span class="sr-only">(current)</span></a></li>
+        <li><a href="/index/show/index">展示</a></li>
+		<li><a href="/index/show/butterfly">蝴蝶</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">展示</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {$user['user']}<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/index/login/index">注销</a></li>
+            <!--<li role="separator" class="divider"></li>-->
+            <li><a href="#">个人信息</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+   <div id="dasky">
+	<div class="step year">
+		<div class="dsk-titlenode">
+			2016
+		</div>
+		<div class="dsk-content">
+			<p class="dsk-year-info">
+			   爱之初体验
+			</p>
+		</div>
+	</div>
+	<div class="step">
+		<div class="dsk-circle">
+			05/01</div>
+		<h2 class="dsk-circle-title">
+			daskey时间轴滑块</h2>
+		<div class="dsk-content">
+			<div class="dsk-info">
+				<h2>
+				   daskey时间轴滑块
+				</h2>
+			</div>
+		</div>
+	</div>
+	<div class="step">
+		<div class="dsk-circle">
+			12/16</div>
+		<h2 class="dsk-circle-title">
+		   时尚的外观</h2>
+		<div class="dsk-content">
+			<div class="dsk-info">
+				<h2>
+					时尚的外观
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exerc...</p>
+			</div>
+		</div>
+	</div>
+	<div class="step year">
+		<div class="dsk-titlenode">
+			2017
+		</div>
+		<div class="dsk-content">
+			<p class="dsk-year-info">
+				使用产品的时间轴，展示等！
+			</p>
+		</div>
+	</div>
+	<div class="step">
+		<div class="dsk-circle">
+			01/20</div>
+		<h2 class="dsk-circle-title">
+			回退到旧浏览器</h2>
+		<div class="dsk-content">
+			<div class="dsk-info">
+				<h2>
+					回退到旧浏览器
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exerc...</p>
+			</div>
+		</div>
+	</div>
+	<div class="step">
+		<div class="dsk-circle">
+			07/15</div>
+		<h2 class="dsk-circle-title">
+			CSS3动画</h2>
+		<div class="dsk-content">
+			<div class="dsk-info">
+				<h2>
+					CSS3动画
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exerc...
+                </p>
+			</div>
+		</div>
+	</div>
+	<div class="step">
+		<div class="dsk-circle">
+			11/03</div>
+		<h2 class="dsk-circle-title">
+			容易使用</h2>
+		<div class="dsk-content">
+			<div class="dsk-info">
+				<h2>
+				   容易使用</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exerc...</p>
+			</div>
+			<img src="/static/img/1.jpg" alt="" />
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<style scoped>
+	.navbar{
+		margin: 0;
+	}
+</style>
